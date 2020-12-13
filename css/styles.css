@@ -1,0 +1,317 @@
+body
+{
+	font-family: "Lato", sans-serif;
+	margin: 0;
+	background-color:#fdf5e6;
+}
+
+p
+{
+	font-size: 18px;
+}
+
+
+.light-gray
+{
+	background-color:#f1f1f1
+}
+
+.center
+{
+	display:inline-block;
+	width:auto;
+	text-align:center;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+.right
+{
+	float: right;
+}
+
+.left
+{
+	float: left;
+}
+.clear
+{
+	clear:both;
+}
+.header
+{
+	font-family: "Lato", sans-serif;
+	font-weight:bold;
+	text-shadow: 0px 5px 10px rgba(0,0,0,0.16);
+}
+
+.empty:after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+.content
+{
+	width:60%;
+	margin-left: auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+.container
+{
+	width:81%;
+}
+.video
+{
+	margin-right:27px;
+}
+
+.contact
+{
+	float:left;
+	width:33.33%;
+}
+
+.sand2
+{
+	background-color: #f2eada;
+	background-size: cover;
+	padding: 20px;
+}
+
+@keyframes duck
+{
+  from {top:-20%;transform: rotate(-270deg);opacity:0%}
+  to {top:0%;transform: rotate(0deg);opacity: 100%}
+}
+
+.duck {
+	position:fixed;
+	border-radius:50%;
+	width:100px;
+	margin: 10px 100px;
+	box-shadow: 0 2px 10px 0;
+	transition: width 2s;
+	animation-name: duck;
+	animation-duration: 2s;
+}
+
+@keyframes boom
+{
+  from {transform: scale(0) translate(-50%,0%);}
+  to {transform: scale(1) translate(-50%,0%);}
+}
+
+#name
+{
+	color:rgb(255, 219, 88);
+	position:absolute;
+	font-size:100px;
+	animation-name: boom;
+	animation-duration: 1s;
+	top:37%;
+	left:50%;
+	transform:translate(-50%,0%);
+	-ms-transform:translate(-50%,-50%)
+}
+
+#gallery
+{
+	text-align:center;
+	background-color:#f1f1f1;
+	padding-bottom:50px;
+	border-radius:10px;
+	box-shadow:10px 2px 10px 0 rgba(0,0,0,0.16);
+}
+.gallery-width
+{
+	width: 80%;
+}
+
+.contact-width
+{
+	width: 60%;
+}
+.bar
+{
+	position: fixed;
+	width:100%;
+	overflow:hidden;
+	z-index:40;
+	box-shadow:0px 0px 10px 0 rgba(0,0,0,0.16)
+}
+
+.bar-item
+{
+	padding:12px 24px;
+	float:left;
+	display:block;
+	border-right:1px solid #ccc;
+	text-decoration:none;
+	position: relative;
+	color:black;
+	left:37.5%;
+	transition:background-color 0.5s;
+}
+
+.bar-item:hover
+{
+	background-color:orange;
+}
+#bar-home
+{
+	border-left:1px solid #ccc;
+
+}
+
+.bgimg
+{
+	display: block;
+	background-position: center;
+	background-size: cover;
+	height:500px;
+	position:relative;
+	filter:grayscale(10%);
+    overflow: hidden;
+    box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,0.16);
+}
+
+#img1 
+{
+	background-image: url("../images/bgimg.jpg");
+}
+
+#img2
+{
+	background-image: url("../images/header.jpg");
+}
+
+#img3
+{
+	background-image: url("../images/posts.jpg");
+}
+
+#img4
+{
+	background-image: url("../images/gallery.jpg");
+}
+
+#img5
+{
+	background-image: url("../images/contact.jpg");
+}
+
+#headText
+{
+	width:auto;
+	padding:50px;
+	text-align:center;
+	box-shadow:50px 2px 50px 0 rgba(0,0,0,0.16);
+}
+
+#headContent
+{
+	margin-top: 100px;
+	margin-bottom:100px;
+	margin-left: auto;
+	margin-right:auto;
+	width:700px;
+}
+
+.picture
+{
+ 	border: 1px solid #ccc;
+ 	float:left;
+	width:30%;
+	box-shadow:0px 2px 10px 0 rgba(0,0,0,0.16);
+	margin: 10px 8px 70px 8px;
+}
+
+.more
+{
+	border-radius:5px;
+	padding:5px;
+	margin-top:100px;
+	font-weight:bold;
+	text-decoration:none;
+	color:black;
+	transition:color 1s;
+}
+
+.more:hover
+{
+	color:orange;
+}
+
+.margin-top
+{
+	margin-top: 250px;
+}
+.margin-top2
+{
+	margin-top: 100px;
+}
+.margin-top3
+{
+	margin-top: 50px;
+}
+
+.margin-bottom
+{
+	margin-bottom: 50px;
+}
+
+#footer
+{
+	height:auto;
+	background-image: url("../images/bgimg.jpg");
+	padding: 10px 300px 9px 300px;
+	box-shadow: 0px 2px 10px rgba(0,0,0,0.16);
+	box-shadow: inset 0px 10px 50px rgba(0,0,0,0.16);
+	z-index: 2;
+}
+
+.footer-icon
+{
+	margin:0 10px;
+	width:35px;
+	transition: width 1s;
+
+}
+.footer-icon:hover
+{
+	opacity:0.6;
+}
+
+#footer-text
+{
+	color: white;
+	padding-top:10px;
+}
+
+.fb
+{
+	background: url('../images/logos.png') no-repeat -61px -62px;
+	width: 50px;
+	height: 50px;
+	float:right;
+	zoom: .7;
+}
+.twitter
+{
+	background: url('../images/logos.png') no-repeat -4px -62px;
+	width: 50px;
+	height: 50px;
+	float:right;
+	zoom: .7;
+}
+.yt
+{
+	background: url('../images/logos.png') no-repeat -400px -62px;
+	width: 49px;
+	height: 50px;
+	float:right;
+	zoom: .7;
+}
