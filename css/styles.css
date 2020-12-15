@@ -328,7 +328,8 @@ footer
 	float:right;
 	zoom: .7;
 }
-.left-align {
+.left-align
+{
 	padding-left: 20px;
 	text-align: left;
 }
