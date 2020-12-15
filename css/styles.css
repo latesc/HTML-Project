@@ -54,7 +54,7 @@ p
 .content
 {
 	width:60%;
-	margin-left: auto;
+	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
 }
@@ -119,7 +119,6 @@ p
 
 #gallery
 {
-	text-align:center;
 	background-color:#f1f1f1;
 	padding-bottom:50px;
 	border-radius:10px;
@@ -277,7 +276,7 @@ a.more:hover::after
 	margin-bottom: 50px;
 }
 
-#footer
+footer
 {
 	height:auto;
 	background-image: url("../images/bgimg.jpg");
@@ -328,4 +327,8 @@ a.more:hover::after
 	height: 50px;
 	float:right;
 	zoom: .7;
+}
+.left-align {
+	padding-left: 20px;
+	text-align: left;
 }
