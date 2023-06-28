@@ -60,5 +60,10 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
 
-- [List any references, resources, or tutorials used during the project]
-- [Give credit to any external libraries or assets used]
+McKinnon, J. (2015, May 12). social-media-icons-css-sprite [Illustration]. Wmpu Dev. https://littlepuddingjustin.wordpress.com/category/enterprise-2-0/
+
+Escamilla, A. (2013, May 27). Macbook laptop on a desk [Photograph]. Unsplash. https://unsplash.com/photos/yC-Yzbqy7PY
+
+Haupt, M. (2019, August 15). Crystal Bridges Museum of American Art, Bentonville, Arkansas, USA [Photograph]. Unsplash. https://unsplash.com/photos/VbI0LMaGMlg
+
+Czerwiński, P. (2018, August 18). One of the display units at the Discovery Center of the Centennial Hall. [Photograph]. Unsplash. https://unsplash.com/photos/-0xCCPIbl3M
